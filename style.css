@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    color:white;
+    background-color: white;
+}
+.navbar {
+    height: 60px; /* Fixed height for the navbar */
+    background-color:palevioletred; /* Dark background for contrast */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar .container {
+    display: flex; /* Flex display for container */
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Vertically center the items */
+    height: 100%; /* Fill the height of the navbar */
+    padding: 0 20px; /* Horizontal padding for spacing */
+}
+
+.navbar .nav {
+    display: flex; /* Flex display for nav list */
+    list-style-type: none; /* Remove bullet points */
+}
+
+.navbar .nav li {
+    margin-left: 20px; /* Add space between items */
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+    color: white; /* Logo color */
+}
+
+.navbar a {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Add padding for better clickability */
+}
+
+.navbar a:hover {
+    color:lightpink; /* Change color on hover */
+}
+.rectangle{
+   display: flex;
+   justify-content:space-between;
+   align-items:flex-end;
+   color: palevioletred;
+   position: relative;
+}
+   
+.a{
+    background-color:palevioletred;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    height: 800px;
+}
